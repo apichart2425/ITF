@@ -58,7 +58,7 @@ include_once 'connect.php';
 
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="#body">
+                            <a class="logo-wrap" href="index.html">
                                 <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
                                 <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
                             </a>
@@ -102,7 +102,7 @@ include_once 'connect.php';
     <?php 
         if (isset($_POST['submit-search'])) {
             $search = mysqli_real_escape_string($conn, $_POST['search']);
-            $sql = "SELECT * FROM people WHERE name LIKE '%$search%' OR information LIKE '%$search%'";
+            $sql = "SELECT * FROM people WHERE name LIKE '%$search%'";
             $result = mysqli_query($conn, $sql);
             $resultCheck = mysqli_num_rows($result);
             

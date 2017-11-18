@@ -58,7 +58,7 @@ include_once 'connect.php';
 
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="#body">
+                            <a class="logo-wrap" href="index.html">
                                 <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
                                 <img class="logo-img logo-img-active" src="img/logo.png" alt="Asentus Logo">
                             </a>
@@ -105,9 +105,6 @@ include_once 'connect.php';
                     $resultCheck = mysqli_num_rows($result);
                     if ($resultCheck > 0) {
                     while ($row = mysqli_fetch_assoc($result)) {
-                    // echo "<div>
-                        //         <p>".$row['information']."</p>
-                    //     </div>";
                 }}
                 ?>
                 </div>
