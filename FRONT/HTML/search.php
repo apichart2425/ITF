@@ -102,7 +102,7 @@ include_once 'connect.php';
     <?php 
         if (isset($_POST['submit-search'])) {
             $search = mysqli_real_escape_string($conn, $_POST['search']);
-            $sql = "SELECT * FROM people WHERE name LIKE '%$search%'";
+            $sql = "SELECT * FROM people WHERE name LIKE '%$search%' OR surname LIKE '%$search%' OR fullname LIKE '%$search%'";
             $result = mysqli_query($conn, $sql);
             $resultCheck = mysqli_num_rows($result);
             
