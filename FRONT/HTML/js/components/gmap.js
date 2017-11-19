@@ -30,13 +30,13 @@ window.initMap = function() {
 
   var customMapTypeId = 'custom_style';
 
-  var brooklyn = {lat: 41.850, lng: -73.961};
+  var Bangkok = {lat: 13.730867, lng: 100.781350};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
-    center: brooklyn, // Brooklyn.
+    center: Bangkok, // Bangkok.
     mapTypeControlOptions: {
       mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
     }
@@ -45,8 +45,8 @@ window.initMap = function() {
   var marker = new google.maps.Marker({
     map: map,
     icon: image,
-    title: 'Brooklyn',
-    position: brooklyn
+    title: 'Bangkok',
+    position: Bangkok
   });
 
   map.mapTypes.set(customMapTypeId, customMapType);
