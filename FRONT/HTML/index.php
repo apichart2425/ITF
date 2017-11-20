@@ -99,7 +99,29 @@ include_once 'connect.php';
                 </form>
 
                 <div class="people-container">
-                </div>
+    <?php 
+        if (isset($_POST['submit-search'])) {
+            $search = mysqli_real_escape_string($conn, $_POST['search']);
+            $sql = "SELECT * FROM people WHERE name LIKE '%$search%' OR surname LIKE '%$search%' OR fullname LIKE '%$search%'";
+            $result = mysqli_query($conn, $sql);
+            $resultCheck = mysqli_num_rows($result);
+            
+            if ($resultCheck > 0) {
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "<div>
+                        <p>".$row['information']."</p>
+                        </div>";
+                    echo '<img src="data:image/jpg;base64,'.base64_encode($row['pic']).'"heigh="300" width="300"/>';
+                }
+            } else {
+                echo "There are no results matching your search !!";
+            }
+        }
+
+     ?>
+
+
+</div>
         </div>
     </div>
     <!--========== SLIDER ==========-->
