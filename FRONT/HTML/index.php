@@ -88,7 +88,7 @@ include_once 'connect.php';
         <div class="promo-block">
             <div class="container">
                 <div class="margin-b-40">
-                    <h1 class="promo-block-title">WORLD WAR II.</h1>
+                    <h1 class="promo-block-title">WORLD WAR II</h1>
                     <p class="promo-block-text">Look how our history is going...</p>
                 </div>
                 <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="vid/intro.mp4" title="Intro Video"><i class="btn-icon icon-control-play"></i> Watch Intro Video</a>
@@ -148,7 +148,7 @@ include_once 'connect.php';
                 <div class="row text-center margin-b-40">
                     <div class="col-sm-6 col-sm-offset-3">
                         <h2>When the war was going...</h2>
-                        <p>The unfairness of the Treaty of Versailles and other peace agreements. Which was made after the First World War. They were forced to sign contracts that were at a disadvantage</p>
+                        <p>The unfairness of the Treaty of Versailles and other peace agreements. Which was made after the First World War. They were forced to sign contracts that were at a disadvantage.</p>
                     </div>
                 </div>
                 <!--// end row -->
@@ -160,7 +160,7 @@ include_once 'connect.php';
                             <img class="img-responsive wow fadeIn" src="img/970x647/01.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
                         <h4>Cause <span class="text-uppercase margin-l-20">They took so far.</span></h4>
-                        <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The unfairness of the Treaty of Versailles and other peace agreements. Which was made after the First World War. They were forced to sign contracts that were at a disadvantage, such as the loss of colonial territories. And pay huge amounts of reparations. This is a reason for the cancellation of the terms of the agreement.</p></div>
+                        <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The unfairness of the Treaty of Versailles and other peace agreements. Which was made after the First World War. They were forced to sign contracts that were at a disadvantage, such as the loss of colonial territories. And pay huge amounts of reparations. This ia a reason for the cancellation of the terms of the agreement.</p></div>
                     </div>
                     <!-- End Latest Products -->
 
@@ -170,7 +170,7 @@ include_once 'connect.php';
                             <img class="img-responsive wow fadeIn" src="img/970x647/02.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
                         </div>
                         <h4>War Slate <span class="text-uppercase margin-l-20">The peace no longer!</span></h4>
-                        <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In World War II Germany lost its territory to Poland under the Treaty of Versailles. And the Polish insurgents divided the territory of Germany into two parts. West Prussia and East Prussia. Hitler asked to build a road through Poland to East Prussia. Britain and France oppose Hitler canceled the agreement that Germany would not offend Poland. And do not offend the Soviet Union. Germany started the war with the invasion of Poland on September 1, 1939</p></div>
+                        <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In World War II Germany lost its territory to Poland under the Treaty of Versailles. And the Polish insurgents divided the territory of Germany into two parts. West Prussia and East Prussia. Hitler asked to build a road through Poland to East Prussia. Britain and France oppose Hitler canceled the agreement that Germany would not offend Poland. And do not offend the Soviet Union. Germany started the war with the invasion of Poland on September 1, 1939.</p></div>
                     </div>
                     <!-- End Latest Products -->
 
@@ -257,7 +257,7 @@ include_once 'connect.php';
                                     <div class="row">
                                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0"><div align="justify">
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mussolini joined the founding of the Fasc Italiani di Combattimento or the Fascist Party in preparation for the Revolutionary War. The "parade of Rome" came to the year 2468, he established himself as a full-fledged dictator. Forced to abolish the parliamentary replacement system with "Corporate State" and formalize the system. Create Vatican City Invasion of Abyssinia (Now Ethiopia) and Albania (1939) in possession. With the advent of the Axis and Adolf. Hitler of Germany.</p></div>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mussolini joined the founding of the Fasci Italiani di Combattimento or the Fascist Party in preparation for the Revolutionary War. The "parade of Rome" came to the year 2468, he established himself as a full-fledged dictator. Forced to abolish the parliamentary replacement system with "Corporate State" and formalize the system. Create Vatican City Invasion of Abyssinia (Now Ethiopia) and Albania (1939) in possession. With the advent of the Axis and Adolf. Hitler of Germany.</p></div>
                                             </div>
                                         </div>
                                         <div class="col-sm-4">
@@ -290,8 +290,8 @@ include_once 'connect.php';
                                     <div class="row">
                                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0"><div align="justify">
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He was born in Gorya, Georgia. The city is located on the hills of the Caucasus Mountains. One of the states of the Russian Empire. He was born Georgian by the name of Stalin, he was working for the Communist Party (stalin in Russian, meaning steel).</p>
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the beginning of World War II, Stalin had a non-aggression treaty with Nazi Germany. This led to the separation of powers in Eastern Europe in the 1940s. Leader of the Soviet Union He was called Father of the Soviet Union. When religion is illegal in communist states The role of God was played by Stalin. He brought the communist system to use. Everyone was forbidden to have private property. Everything, including a party or party. The protesters were sent to concentration camps and killed about 10 million people. There were no demographic surveys that led to the death of a Soviet leader during the revolution.</p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;He was born in Gorya, Georgia. The city is located on the hills of the Caucasus Mountains. One of the states of the Russian Empire. He was born Georgian by the name of Stalin, he was working for the Communist Party (Stalin in Russian, meaning steel).</p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the beginning of World War II, Stalin had a non-aggression treaty with Nazi Germany. This led to the separation of powers in Eastern Europe in the 1940s. The leader of the Soviet Union He was called Father of the Soviet Union. When religion is illegal in communist states The role of God was played by Stalin. He brought the communist system to use. Everyone was forbidden to have private property. Everything, including a party or party. The protesters were sent to concentration camps and killed about 10 million people. There were no demographic surveys that led to the death of a Soviet leader during the revolution.</p>
                                             </div></div>
                                         </div>
                                         <div class="col-sm-4">
@@ -358,7 +358,7 @@ include_once 'connect.php';
                                     <div class="row">
                                         <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                             <div class="margin-t-10 sm-margin-t-0"><div align="justify">
-                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Winston was born into an aristocratic family descended from the Dukes of Marlborough. One branch of the Spencer family. His father is Lord Rundal Churchill, politician who holds the post of treasury secretary His mother was Jenny Giorgio, an American social worker. While still a young soldier He undertook missions in British India and Sudan, and in the Second Boer War. He gained a reputation as a war correspondent and wrote a book about his operations.</p>
+                                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Winston was born into an aristocratic family descended from the Dukes of Marlborough. One branch of the Spencer family. His father is Lord Randolph Churchill, the politician who holds the post of treasury secretary His mother was Jenny Giorgio, an American social worker. While still a young soldier He undertook missions in British India and Sudan, and in the Second Boer War. He gained a reputation as a war correspondent and wrote a book about his operations.</p>
                                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the 1930s, Winston returned to politics again when Nazi Germany began to regain its military presence and threatened the British. And then the sudden emergence of World War II. He was appointed Minister of Justice again. And after the resignation of Prime Minister Neil Sham Berlin on May 10, 1940, Winston became Prime Minister. His unqualified declaration of invincibility prompted the British to oppose Nazi Germany. Especially in the early war, which was a difficult time, when the British and British colonies were the only opponents to stand up against Adolf Hitler. Winston gave his speeches through radio broadcasting. Wake up the British morale. He was the leader of Britain until he could overthrow Nazi Germany. But the victory has to do with the loss of the world's superpower to the United States. The occupied colonies of India, Malaysia, Burma, and so on all claim independence, sovereignty must fall into place, causing the British Empire to collapse and become a Commonwealth of Nations.</p>
                                             </div></div>
                                         </div>
@@ -448,7 +448,7 @@ include_once 'connect.php';
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                        <img class="footer-logo" src="img/logo-dark.png" alt="WWII">
+                        <img class="footer-logo" src="img/logo.png" alt="WWII">
                     </div>
                     <div class="col-xs-6 text-right">
                         <p class="margin-b-0">World War II Presented by: ITF-Group</p>
