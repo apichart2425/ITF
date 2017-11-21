@@ -108,16 +108,31 @@ include_once 'connect.php';
             
             if ($resultCheck > 0) {
                 while ($row = mysqli_fetch_assoc($result)) {
-                    echo "<div>
-                        <p>".$row['information']."</p>
-                        </div>";
-                    echo '<img src="data:image/jpg;base64,'.base64_encode($row['pic']).'"heigh="300" width="300"/>';
+                    echo "<div id=\"products\">
+                            <div class=\"container content-lg\">
+                                <div class=\"row text-center margin-b-40\">
+                                    <div class=\"col-sm-6 col-sm-offset-3\">
+                                        <p><h2><font color=\"white\">".$row['fullname']."</font></h2></p>";
+                                        echo '<p><img src="data:image/jpg;base64,'.base64_encode($row['pic']).'"heigh="300" width="300"/></p>';
+                                        echo "<div><p><font color=\"white\">".$row['information']."</font></p></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>";
                 }
             } else {
-                echo "There are no results matching your search !!";
+                echo "<div id=\"products\">
+                            <div class=\"container content-lg\">
+                                <div class=\"row text-center margin-b-40\">
+                                    <div class=\"col-sm-6 col-sm-offset-3\">
+                                        '<p><h1><font color=\"white\">There are no results matching your search</font></h2></p>'
+                                    </div>
+                                </div>
+                            </div>
+                    </div>";
+
             }
         }
-
      ?>
 
 
