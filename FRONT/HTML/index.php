@@ -82,7 +82,7 @@ include_once 'connect.php';
             </nav>
             <!-- Navbar -->
         </header>
-        <!--========== END HEADER ==========--><img src="">
+        <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
         <div class="promo-block">
