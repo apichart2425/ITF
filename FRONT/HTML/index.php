@@ -429,7 +429,7 @@ include_once 'connect.php';
                             </div>
                             <div class="col-md-2">
                                 <img class="picture" src="img/500x500/max.jpg">
-                                <p>Max</p>
+                                <p>Thitikorn Padungwatsawat</p>
                             </div>
                             <div class="col-md-2">
                                 <img class="picture" src="img/500x500/meak.jpg">
