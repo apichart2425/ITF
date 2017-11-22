@@ -425,7 +425,7 @@ include_once 'connect.php';
                             </div>
                             <div class="col-md-2">
                                 <img class="picture" src="img/500x500/pack.jpg">
-                                <p>Apichart Chainarongrit</p>
+                                <p>Apichart Chainarongritti</p>
                             </div>
                             <div class="col-md-2">
                                 <img class="picture" src="img/500x500/max.jpg">
