@@ -38,6 +38,12 @@ include_once 'connect.php';
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+        <style>
+            .picture{
+                height: 225px;
+                width: 225px;
+            }
+        </style>
     </head>
     <!-- END HEAD -->
 
@@ -408,41 +414,42 @@ include_once 'connect.php';
 
         <!--========== FOOTER ==========-->
         <footer class="footer">
-            <!-- Links -->
-            <div class="section-seperator">
-                <div class="content-md container">
-                    <div class="row">
-                        <div class="col-sm-2 sm-margin-b-30">
+            <p;>&emsp; &emsp; &emsp; About Us</p>
+                <div class="container-fluid">
+                        <div id="fix_pic" class="row">
                             <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#body">Home</a></li>
-                                <li class="footer-list-item"><a href="#products">Timeline</a></li>
-                                <li class="footer-list-item"><a href="#work">Important person</a></li>
-                            </ul>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-2">
+                                <img class="picture" src="img/500x500/mint.jpg">
+                                <p>Kanyarat Inta</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="picture" src="img/500x500/pack.jpg">
+                                <p>Apichart Chainarongrit</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="picture" src="img/500x500/max.jpg">
+                                <p>Max</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="picture" src="img/500x500/meak.jpg">
+                                <p>Supawach Klinkajohn</p>
+                            </div>
+                            <div class="col-md-2">
+                                    <img class="picture" src="img/500x500/mo.jpg">
+                                    <p>Niti Jirakarnwuttikrai</p>
+                            </div>
+                              
+                               <!--  </li>
+                                <li class="footer-list-item">Niti Jirakarnwuttikrai</a></li>
+                                <li class="footer-list-item">Thitikorn Padungwatsawat</a></li>
+                                <li class="footer-list-item">Supawach Klinkajohn</a></li>
+                                <li class="footer-list-item">Apichart Chainarongrat</a></li>
+                            </ul> -->
                             <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a>About us</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-3">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Kunyarat Inta</a></li>
-                                <li class="footer-list-item"><a href="#">Niti Jirakarnwuttikrai</a></li>
-                                <li class="footer-list-item"><a href="#">Thitikorn Padungwatsawat</a></li>
-                                <li class="footer-list-item"><a href="#">Supawach Klinkajohn</a></li>
-                                <li class="footer-list-item"><a href="#">Apichart Chainarongrat</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                    
             <!-- End Links -->
 
             <!-- Copyright -->
