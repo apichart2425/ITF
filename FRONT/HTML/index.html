@@ -67,8 +67,8 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="nav navbar-nav navbar-nav-right">
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
-                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#products">Timeline</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#home">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#timeline">Timeline</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Important person</a></li>
                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                             </ul>
@@ -81,25 +81,27 @@
         </header>
         <!--========== END HEADER ==========-->
         <!--========== SLIDER ==========-->
-        <div class="promo-block">
-            <div class="container">
-                <div class="margin-b-40">
-                    <h1 class="promo-block-title">WORLD WAR II</h1>
-                    <p class="promo-block-text">Look how our history is going...</p>
+        <div id="home">
+            <div class="promo-block">
+                <div class="container">
+                    <div class="margin-b-40">
+                        <h1 class="promo-block-title">WORLD WAR II</h1>
+                        <p class="promo-block-text">Look how our history is going...</p>
+                    </div>
+                    <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="vid/intro.mp4" title="Intro Video"><i class="btn-icon icon-control-play"></i> Watch Intro Video</a>
+                    <p></p>
+                    <form action="index.php" method="POST">
+                        <input type="text" name="search" placeholder="Search Important People...">
+                        <button type="submit" name="submit-search">SUBMIT</button>
+                    </form>
                 </div>
-                <a class="js_popup-youtube btn-theme btn-theme-md btn-white-bg text-uppercase" href="vid/intro.mp4" title="Intro Video"><i class="btn-icon icon-control-play"></i> Watch Intro Video</a>
-                <p></p>
-                <form action="index.php" method="POST">
-                    <input type="text" name="search" placeholder="Search Important People...">
-                    <button type="submit" name="submit-search">SUBMIT</button>
-                </form>
             </div>
         </div>
         <!--========== SLIDER ==========-->
 
         <!--========== PAGE LAYOUT ==========-->
-        <!-- Products -->
-        <div id="products">
+        <!-- timeline -->
+        <div id="timeline">
             <div class="container content-lg">
                 <div class="row text-center margin-b-40">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -110,35 +112,35 @@
                 <!--// end row -->
 
                 <div class="row">
-                    <!-- Latest Products -->
+                    <!-- Latest timeline -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/01.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive wow fadeIn" src="img/970x647/01.jpg" alt="Latest timeline Image" data-wow-duration=".3" data-wow-delay=".1s">
                         </div>
                         <h4>Cause <span class="text-uppercase margin-l-20">They took so far.</span></h4>
                         <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The unfairness of the Treaty of Versailles and other peace agreements. Which was made after the First World War. They were forced to sign contracts that were at a disadvantage, such as the loss of colonial territories. And pay huge amounts of reparations. This ia a reason for the cancellation of the terms of the agreement.</p></div>
                     </div>
-                    <!-- End Latest Products -->
+                    <!-- End Latest timeline -->
 
-                    <!-- Latest Products -->
+                    <!-- Latest timeline -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/02.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".2s">
+                            <img class="img-responsive wow fadeIn" src="img/970x647/02.jpg" alt="Latest timeline Image" data-wow-duration=".3" data-wow-delay=".2s">
                         </div>
                         <h4>War Slate <span class="text-uppercase margin-l-20">The peace no longer!</span></h4>
                         <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In World War II Germany lost its territory to Poland under the Treaty of Versailles. And the Polish insurgents divided the territory of Germany into two parts. West Prussia and East Prussia. Hitler asked to build a road through Poland to East Prussia. Britain and France oppose Hitler canceled the agreement that Germany would not offend Poland. And do not offend the Soviet Union. Germany started the war with the invasion of Poland on September 1, 1939.</p></div>
                     </div>
-                    <!-- End Latest Products -->
+                    <!-- End Latest timeline -->
 
-                    <!-- Latest Products -->
+                    <!-- Latest timeline -->
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="margin-b-20">
-                            <img class="img-responsive wow fadeIn" src="img/970x647/03.jpg" alt="Latest Products Image" data-wow-duration=".3" data-wow-delay=".3s">
+                            <img class="img-responsive wow fadeIn" src="img/970x647/03.jpg" alt="Latest timeline Image" data-wow-duration=".3" data-wow-delay=".3s">
                         </div>
                         <h4>End of war <span class="text-uppercase margin-l-20">It's over.</span></h4>
                         <div align="justify"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The war ended with the victory of the Allies. The results of the war have changed the political and social structure of the world. The United Nations is established. To promote international cooperation and to prevent future conflicts. The United States and the Soviet Union stepped up as the world's protagonists, a contender. Leading to conflict on the stage of the Cold War. It continued for 46 years after the war.</p></div>
                     </div>
-                    <!-- End Latest Products -->
+                    <!-- End Latest timeline -->
                 </div>
                 <!--// end row -->
             </div>
@@ -155,7 +157,7 @@
                 <!--// end row -->
             </div>
         </div>
-        <!-- End Products -->
+        <!-- End timeline -->
 
         <!-- Work -->
         <div id="work">
@@ -370,28 +372,33 @@
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- List -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#body">Home</a></li>
-                                <li class="footer-list-item"><a href="#products">Timeline</a></li>
-                                <li class="footer-list-item"><a href="#work">Important person</a></li>
-                            </ul>
-                            <!-- End List -->
-                        </div>
-                        <div class="col-sm-2 sm-margin-b-30">
-                            <!-- List -->
-                            <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item"><p>About us</p></li>
                             </ul>
                             <!-- End List -->
                         </div>
-                        <div class="col-sm-3">
+                        <div id="fix_pic" class="row">
                             <!-- List -->
-                            <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#">Kunyarat Inta</a></li>
-                                <li class="footer-list-item"><a href="#">Niti Jirakarnwuttikrai</a></li>
-                                <li class="footer-list-item"><a href="#">Thitikorn Padungwatsawat</a></li>
-                                <li class="footer-list-item"><a href="#">Supawach Klinkajohn</a></li>
-                                <li class="footer-list-item"><a href="#">Apichart Chainarongrat</a></li>
-                            </ul>
+                                    <div class="col-md-2.4">
+                                        <img src="img/500x500/mint.jpg">
+                                    </div>
+                                    <div class="col-md-2.4">
+                                        <img src="img/500x500/pack.jpg">
+                                    </div>
+                                    <div class="col-md-2.4">
+                                        <img src="img/500x500/max.jpg">
+                                    </div>
+                                    <div class="col-md-2.4">
+                                        <img src="img/500x500/meak.jpg">
+                                    </div>
+                                    <div class="col-md-2.4">
+                                        <img src="img/500x500/mo.jpg">
+                                    </div>
+                               <!--  </li>
+                                <li class="footer-list-item">Niti Jirakarnwuttikrai</a></li>
+                                <li class="footer-list-item">Thitikorn Padungwatsawat</a></li>
+                                <li class="footer-list-item">Supawach Klinkajohn</a></li>
+                                <li class="footer-list-item">Apichart Chainarongrat</a></li>
+                            </ul> -->
                             <!-- End List -->
                         </div>
                     </div>
