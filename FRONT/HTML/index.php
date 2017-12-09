@@ -486,7 +486,7 @@ include_once 'connect.php';
         <script src="vendor/magnific-popup/jquery.magnific-popup.min.js" type="text/javascript"></script>
         <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
         <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoINV-SOrT9-kd7ol7eGWIRX_99DDAB6k&amp;callback=initMap" async defer></script>
 
         <!-- PAGE LEVEL SCRIPTS -->
         <script src="js/layout.min.js" type="text/javascript"></script>
